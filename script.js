@@ -53,8 +53,6 @@ const options = {
 const locale = navigator.language;
 labelDate.textContent = new Intl.DateTimeFormat(locale, options).format(now);
 
-console.log(`welcome`);
-
 // Delete Items
 // Method 1
 // for (el of listItem) {}
