@@ -9,7 +9,6 @@ let allListItems;
 let index = 0;
 const addListItem = function () {
    index++;
-   console.log(input.value);
    const html = `<li class="list-item">${index}. ${input.value}</li>`;
    listContainer.insertAdjacentHTML(`beforeend`, html);
    input.value = ``;
